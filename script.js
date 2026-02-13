@@ -78,7 +78,7 @@ function renderBoard() {
       tile.dataset.col = c;
 
       if (value > 0) {
-        tile.style.backgroundImage = `url('${value}.jpg')`;
+        tile.style.backgroundImage = `url('${value}.JPG')`;
       } else {
         tile.style.backgroundImage = "none";
         tile.style.backgroundColor = "transparent";
